@@ -386,9 +386,6 @@ if (carouselContainer) {
     // Initialize trader deals carousel
     initializeTraderDealsCarousel();
 
-
-    // Fade animations
-
    // Fade animations
     if (window.innerWidth >= 767) {
       const fadeFromTopItems = document.querySelectorAll(".fade-from-top");
