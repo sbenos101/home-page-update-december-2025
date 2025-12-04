@@ -16,8 +16,9 @@ div.columns { padding-left: 0 !important; padding-right: 0 !important; }
 
 /* Hero Banner */
 
+.makita-header-image-container { min-height: 350px; position: relative; }
 .makita-header-image { background-position: 75%!important; }
-.makita-header-price-circle { width: 125px; height: 125px; background-color: #e31e26; border-radius: 50%; display: flex; justify-content: center; align-items: center; text-align: center; color: #fff; padding: 10px; box-sizing: border-box; position: absolute; top: 53%; right: 22%; transform: translateY(-120%); z-index: 2; }
+.makita-header-price-circle { width: 125px; height: 125px; background-color: #e31e26; border-radius: 50%; display: flex; justify-content: center; align-items: center; text-align: center; color: #fff; padding: 10px; box-sizing: border-box; position: absolute; top: 53%; right: 18%; transform: translateY(-120%); z-index: 2; }
 .makita-header-price-circle .price-text { display: flex; flex-direction: column; }
 .makita-header-price-text .only { font-size: 0.9rem; font-weight: bold; align-self: flex-start; padding-left: 15px; line-height: 0.7; }
 .makita-header-price-text .price { font-size: 1.8rem; font-weight: 900; align-self: center; line-height: 1.2; }
@@ -289,7 +290,7 @@ div.columns { padding-left: 0 !important; padding-right: 0 !important; }
 
 /* Hero Banner */
 
-.makita-header-price-circle { right: 5%; }
+.makita-header-price-circle { right: 1%; }
 
 }
 
@@ -347,7 +348,7 @@ div.columns { padding-left: 0 !important; padding-right: 0 !important; }
 
 /* Hero Banner */
 
-.makita-header-price-circle { width: 115px; height: 115px; top: 60%; }
+.makita-header-price-circle { top: 45%; }
 
 /* Popular Category Button Carousel */
 
