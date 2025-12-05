@@ -1,3 +1,5 @@
+<style>
+
 .columns { max-width: 100%; }
 div.columns { padding-left: 0 !important; padding-right: 0 !important; }
 .cms-index-index #maincontent { padding-top: 0px !important; }
@@ -17,7 +19,7 @@ div.columns { padding-left: 0 !important; padding-right: 0 !important; }
 /* Hero Banner */
 
 .makita-header-image-container { min-height: 350px; position: relative; }
-.makita-header-image { background-position: 75%!important; }
+.makita-header-image { background-position: 75%!important; background-repeat: no-repeat;  background-size: auto; width: 100%; max-width: 1920px; margin: 0 auto; }
 .makita-header-price-circle { width: 125px; height: 125px; background-color: #e31e26; border-radius: 50%; display: flex; justify-content: center; align-items: center; text-align: center; color: #fff; padding: 10px; box-sizing: border-box; position: absolute; top: 53%; right: 18%; transform: translateY(-120%); z-index: 2; }
 .makita-header-price-circle .price-text { display: flex; flex-direction: column; }
 .makita-header-price-text .only { font-size: 0.9rem; font-weight: bold; align-self: flex-start; padding-left: 15px; line-height: 0.7; }
@@ -168,6 +170,17 @@ div.columns { padding-left: 0 !important; padding-right: 0 !important; }
 #HomePageScrollContainer > div:last-child { margin-right: 8%; }
 
 /* MINIMUM */
+
+@media (min-width: 1921px) {
+
+.makita-header-image .row-full-width-inner { margin: 0 auto; }
+.makita-header-image { position: relative; }
+.makita-header-image { background-repeat: no-repeat; background-size: cover; background-position: center right; width: 100%; }
+.makita-header-image::before { content: ''; position: absolute; top: 0; left: 0; bottom: 0; width: 2.5%; background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5) 30%, rgba(255, 255, 255, 0.2) 60%, rgba(255, 255, 255, 0) 100%); z-index: 1; pointer-events: none; }
+.makita-header-image::after { content: ''; position: absolute; top: 0; right: 0; bottom: 0; width: 2.5%; background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5) 30%, rgba(255, 255, 255, 0.2) 60%, rgba(255, 255, 255, 0) 100%); z-index: 1; pointer-events: none; }
+
+}
+
 @media (min-width:  1301px) {
 
 /* Featured Category Carousel */
@@ -721,3 +734,5 @@ div.columns { padding-left: 0 !important; padding-right: 0 !important; }
 .green-button-guide { width: 65%; } 
 
 }
+
+</style>
