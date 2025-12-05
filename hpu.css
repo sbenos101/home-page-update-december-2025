@@ -174,8 +174,8 @@ div.columns { padding-left: 0 !important; padding-right: 0 !important; }
 .makita-header-image .row-full-width-inner { margin: 0 auto; }
 .makita-header-image { position: relative; }
 .makita-header-image { background-repeat: no-repeat; background-size: cover; background-position: center right; width: 100%; }
-.makita-header-image::before { content: ''; position: absolute; top: 0; left: 0; bottom: 0; width: 2.5%; background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5) 30%, rgba(255, 255, 255, 0.2) 60%, rgba(255, 255, 255, 0) 100%); z-index: 1; pointer-events: none; }
-.makita-header-image::after { content: ''; position: absolute; top: 0; right: 0; bottom: 0; width: 2.5%; background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5) 30%, rgba(255, 255, 255, 0.2) 60%, rgba(255, 255, 255, 0) 100%); z-index: 1; pointer-events: none; }
+.makita-header-image::before { content: ''; position: absolute; top: 0; left: 0; bottom: 0; width: 2.5%; background: linear-gradient(to right, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 0.5) 30%, rgba(255, 255, 255, 0.2) 60%, rgba(255, 255, 255, 0) 100%); z-index: 1; pointer-events: none; }
+.makita-header-image::after { content: ''; position: absolute; top: 0; right: 0; bottom: 0; width: 2.5%; background: linear-gradient(to left, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 0.5) 30%, rgba(255, 255, 255, 0.2) 60%, rgba(255, 255, 255, 0) 100%); z-index: 1; pointer-events: none; }
 
 }
 
